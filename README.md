@@ -12,6 +12,8 @@ This project was built on a Windows 10 PC, but it should work cross-platform on 
 
 ## Package the application
 
+Enter the following command into the command prompt:
+
 ```bash
 raco exe server.rkt
 ```
