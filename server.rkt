@@ -1,4 +1,4 @@
-;; Define langauge and import packages
+;; Define language and import packages
 #lang racket
 (require json)
 (require web-server/servlet)
@@ -7,7 +7,7 @@
 ;; Get port where server listens on
 (define PORT (string->number (getenv "FUNCTIONS_HTTPWORKER_PORT")))
 
-;; Creat function to handle GET /values request
+;; Create function to handle GET /values request
 (define (get-values req)
     (response/full
         200

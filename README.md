@@ -2,6 +2,8 @@
 
 This sample application uses Azure Functions Custom Handlers to run a Racket web application as a serverless function.
 
+For more details on how this application was built, see the [Serverless Racket Applications using Azure Functions Custom Handlers blog post](http://luisquintanilla.me/2020/03/21/serverless-racket-azure-functions-custom-handlers/)
+
 ## Prerequisites
 
 This project was built on a Windows 10 PC, but it should work cross-platform on Mac and Linux.
